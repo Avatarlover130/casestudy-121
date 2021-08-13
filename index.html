@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CASE STUDY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+
+    <style type="text/css">
+        body {
+            background-color: rgb(235, 223, 255);
+        }
+
+        .copy_right_footer2 {
+            color: hsl(258, 100%, 74%);
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(235, 223, 255);
+            line-height: 3;
+            text-align: center;
+            font-family: 'Patrick Hand', cursive;
+            font-size: 20px;
+        }
+        .copy_right_footer1 {
+            color: hsl(258, 100%, 77%);
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(235, 223, 255);
+            line-height: 3;
+            text-align: center;
+            font-family: 'Patrick Hand', cursive;
+            font-size: 30px;
+        }
+
+        h5 {
+            background: white;
+            padding: 13px;
+            border-radius: 20px;
+
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        span {
+            color: rgb(132, 0, 255);
+            font-size: 20px;
+        }
+
+        li img {
+            border-radius: 20px;
+        }
+
+        .bob {
+            background: rgb(213, 187, 255);
+            padding: 30px;
+            border-radius: 20px;
+            margin-top: 50px;
+            box-shadow: 5px 5px 18px rgb(213, 187, 255);
+        }
+
+        b {
+            color: purple;
+        }
+
+        .bob3 {
+            text-align: center;
+            color: white;
+        }
+
+        .result {
+            box-shadow: 5px 5px 18px rgb(213, 187, 255);
+            letter-spacing: 2px;
+            background: #ff98b4;
+            border-radius: 20px;
+            margin-top: 30px;
+            padding: 20px;
+            border: 2px solid rgb(236, 187, 255);
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h4 style="text-align: center;font-family: 'Patrick Hand', cursive;">
+            <span>CASE STUDY BETWEEN GOOGLE LENS AND MOBILNET </span>
+            <br><br> GOOGLE LENS
+            <p>
+                <br><br>
+                <b style="color: rgb(162, 0, 255);">VS</b>
+            </p>
+            <br>
+            <p class="btn btn-primary" style="font-size: 20px;">Mobilenet </p>
+        </h4>
+
+        <hr>
+        <div class="bob col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white; font-size: 20px; ">1. Test Image - </b><img src="pillow.jpeg"
+                    class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> -
+                <span>pillow</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> -
+                <span>pillow</span>
+            </h5>
+
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - Both Models are accurate</h4>
+                <hr>
+
+            </div>
+
+        </div>
+        <br>
+        <hr>
+        <div class="bob col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white; font-size: 20px;">2. Test Image - </b><img src="t-shirts.jpg"
+                    class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> -
+                <span>Womans T-shirt</T-shir></span>
+            </h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> -
+                <span>Shirt</span>
+            </h5>
+
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - Google Lens is more accurate</h4>
+                <hr>
+
+            </div>
+
+        </div>
+        <hr>
+
+        <div class="bob col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white; font-size: 20px;">3. Test Image - </b><img src="glasses.png"
+                    class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> -
+                <span>glasses</span>
+            </h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> -
+                <span>glasses, sun glasses</span>
+            </h5>
+
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - Mobilenet is more accurate</h4>
+                <hr>
+
+            </div>
+
+        </div>
+        <hr>
+
+        <div class="bob col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white; font-size: 20px;">4. Test Image - </b><img src="shoes.jpg"
+                    class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> -
+                <span>shoes</span>
+            </h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> -
+                <span>shoes</span>
+            </h5>
+
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - Both Models are accurate</h4>
+                <hr>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="bob col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white; font-size: 20px;">5. Test Image - </b><img src="painting"
+                    class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> -
+                <span>painting</span>
+            </h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> -
+                <span>purple board</span>
+            </h5>
+
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - Google Lens is more accurate</h4>
+                <hr>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="bob col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white; font-size: 20px;">6. Test Image - </b><img src="headphones"
+                    class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> -
+                <span>headphones</span>
+            </h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> -
+                <span>headphones</span>
+            </h5>
+
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - Both Models are accurate</h4>
+                <hr>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="bob col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white; font-size: 20px;">7. Test Image - </b><img src="bedroom" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> -
+                <span>bedroom</span>
+            </h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> -
+                <span>bedroom</span>
+            </h5>
+
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - Both Models are accurate</h4>
+                <hr>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="bob col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white;font-size: 20px;">8. Test Image - </b><img src="flowers" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> -
+                <span>roses</span>
+            </h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> -
+                <span>flowers</span>
+            </h5>
+
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - Google Lens is more accurate</h4>
+                <hr>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="bob col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white; font-size: 20px;">9. Test Image - </b><img src="phone" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> -
+                <span>phone</span>
+            </h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> -
+                <span>device</span>
+            </h5>
+
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - Google Lens is more accurate</h4>
+                <hr>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="bob col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b style="color: white; font-size: 20px;">10. Test Image - </b><img src="house" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>GOOGLE LENS</b> -
+                <span>house</span>
+            </h5>
+            <h5 class="col-sm-4 col-xs-12">Output on <b>Mobilenet Model </b> -
+                <span>house</span>
+            </h5>
+
+            <div class="bob3" class="col-xs-12">
+                <h4>Result - Both Models are accurate</h4>
+                <hr>
+
+            </div>
+
+        </div>
+
+        
+        <div class="copy_right_footer1">According to my Case Study, Google Lens is more accurate then Mobilenet</div>
+        <div class="copy_right_footer2">Developed by - Selvi Patel </div>
+
+        <script src="main.js"></script>
+</body>
+
+</html>
